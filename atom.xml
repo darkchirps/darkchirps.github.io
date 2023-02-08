@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>fanalin</title>
+  <title>alin</title>
   
-  <subtitle>阿林的探索之旅</subtitle>
+  <subtitle>阿林的发现</subtitle>
   <link href="https://www.alin.com/atom.xml" rel="self"/>
   
   <link href="https://www.alin.com/"/>
-  <updated>2023-02-07T12:26:57.776Z</updated>
+  <updated>2023-02-08T05:44:02.143Z</updated>
   <id>https://www.alin.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo的应用</title>
+    <link href="https://www.alin.com/2023/02/08/hexo-de-ying-yong/"/>
+    <id>https://www.alin.com/2023/02/08/hexo-de-ying-yong/</id>
+    <published>2023-02-08T05:43:07.000Z</published>
+    <updated>2023-02-08T05:44:02.143Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;13.1 打开本地博客&lt;/p&gt;
+&lt;h3 id=&quot;3-2插件方式-插入图片&quot;&gt;&lt;a href=&quot;#3-2插件方式-插入图片&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>用github访问hexo博客</title>
@@ -42,7 +64,7 @@
     <link href="https://www.alin.com/2023/02/03/hexo-da-jian-ben-di-bo-ke/"/>
     <id>https://www.alin.com/2023/02/03/hexo-da-jian-ben-di-bo-ke/</id>
     <published>2023-02-03T03:15:51.000Z</published>
-    <updated>2023-02-07T12:23:09.194Z</updated>
+    <updated>2023-02-08T07:32:31.819Z</updated>
     
     
       
@@ -55,6 +77,10 @@
     
     
     
+    <category term="hexo" scheme="https://www.alin.com/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://www.alin.com/tags/hexo/"/>
     
   </entry>
   

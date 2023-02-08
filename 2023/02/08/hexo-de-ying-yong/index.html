@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="node,hexo,git">
+    <meta name="keywords" content="hexo的应用, alin">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hexo搭建本地博客 | alin</title>
+    <title>hexo的应用 | alin</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/darkchirps/darkchirps.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/darkchirps/darkchirps.github.io/libs/awesome/css/all.css">
@@ -323,12 +323,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://i.postimg.cc/YqY7MdNb/hexo1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/darkchirps/darkchirps.github.io/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo搭建本地博客</h1>
+                    <h1 class="description center-align post-title">hexo的应用</h1>
                 </div>
             </div>
         </div>
@@ -442,25 +442,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/hexo/" class="post-category">
-                                hexo
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -469,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-02-03
+                    2023-02-08
                 </div>
                 
 
@@ -483,7 +470,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    432
+                    125
                 </div>
                 
 
@@ -515,42 +502,15 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="1-准备阶段"><a href="#1-准备阶段" class="headerlink" title="1.准备阶段"></a>1.准备阶段</h2><h3 id="1-1安装git"><a href="#1-1安装git" class="headerlink" title="1.1安装git"></a>1.1安装git</h3><p>windows </p>
-<p>32位链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/15ksAYNVYyCKBAHH4VuvR4g?pwd=a425">https://pan.baidu.com/s/15ksAYNVYyCKBAHH4VuvR4g?pwd=a425</a><br>提取码：a425</p>
-<p>64位链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1xtjDVoZ_qGv3PY8quDugFA?pwd=3rtd">https://pan.baidu.com/s/1xtjDVoZ_qGv3PY8quDugFA?pwd=3rtd</a><br>提取码：3rtd</p>
-<p>或者直接去官网下,需科学上网条件<a target="_blank" rel="noopener" href="https://git-scm.com/download/win">Git - Downloading Package (git-scm.com)</a></p>
-<p>安装过程一直next就行</p>
-<h3 id="1-2安装nodejs及其配置环境"><a href="#1-2安装nodejs及其配置环境" class="headerlink" title="1.2安装nodejs及其配置环境"></a>1.2安装nodejs及其配置环境</h3><h4 id="1-2-1安装"><a href="#1-2-1安装" class="headerlink" title="1.2.1安装"></a>1.2.1安装</h4><p>64位链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1sJ54VKd5TtwNb6YX2WIpSQ?pwd=i7t2">https://pan.baidu.com/s/1sJ54VKd5TtwNb6YX2WIpSQ?pwd=i7t2</a><br>提取码：i7t2</p>
-<p>下载下来解压即可</p>
-<p>打开git或者cmd,检查安装是否成功</p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node1.png"></p>
-<h4 id="1-2-2配置环境"><a href="#1-2-2配置环境" class="headerlink" title="1.2.2配置环境"></a>1.2.2配置环境</h4><p>配置前准备</p>
-<p>在解压缩的文件夹中新建这两个文件夹，我这边是放D盘了，且名字改为了nodejs,以下截图都是这个路径为参考</p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node2.png"></p>
-<p>再次打开cmd 输入</p>
-<p>npm config set prefix “D:\nodejs\node_global”</p>
-<p>npm config set prefix “D:\nodejs\node_cache”//路径填写自己的</p>
-<p><strong>设置环境变量</strong></p>
-<p>打开设置搜索环境变量</p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node3.png"></p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node4.png"></p>
-<p><strong>编辑用户变量</strong></p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node5.png"></p>
-<p>找到尾号为npm的配置，点击编辑，替换成解压缩文件夹中的npm路径</p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node6.png"></p>
-<p><strong>编辑系统变量</strong></p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node7.png"></p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node8.png"></p>
-<p>新建%NODE_PATH%</p>
-<p><img src="/2023/02/03/hexo-da-jian-ben-di-bo-ke/node9.png"></p>
-<p><strong>最后输入npm install express -g</strong></p>
-<h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><p>//如果遇到问题，报错443的话，删除C盘与.ssh文件夹同目录下的.npmrc文件</p>
-<p>ps:一定要有权限，要是实在不会用cmd管理员身份打开 cd 到指定的文件夹开始后面流程即可</p>
-<p>1.使用npm安装Hexo，在cmd命令行中输入npm install -g hexo-cli</p>
-<p>2.自己可以指定一个文件夹，然后右键点击打开git 输入hexo init</p>
-<p>3.完毕后再次输入npm install</p>
-<h2 id="3-hexo的开启"><a href="#3-hexo的开启" class="headerlink" title="3.hexo的开启"></a>3.hexo的开启</h2><p>执行指令：hexo s即可</p>
-<p>ps:每次改动后，打开前执行指令:hexo cl,hexo g,最后再执行hexo s</p>
+                <p>13.1 打开本地博客</p>
+<h3 id="3-2插件方式-插入图片"><a href="#3-2插件方式-插入图片" class="headerlink" title="3.2插件方式-插入图片"></a>3.2插件方式-插入图片</h3><p>ps:个人觉得这是最方便的</p>
+<p>用 npm install hexo-renderer-marked下载图片插件</p>
+<p>或者用 npm install <a target="_blank" rel="noopener" href="https://github.com/CodeFalling/hexo-asset-image">https://github.com/CodeFalling/hexo-asset-image</a> –save</p>
+<p>安装之后在<code>config.yaml</code>中更改配置如下：</p>
+<p><img src="/2023/02/08/hexo-de-ying-yong/1.png"></p>
+<p>在本地博客目录下的source/_posts里会多出一个跟文章名一样的文件夹</p>
+<p>把文章里需要用到的图片放进里面</p>
+<p>文章图片引用直接 <code>![](图片名.图片格式)</code></p>
 
                 
             </div>
@@ -577,7 +537,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.alin.com/2023/02/03/hexo-da-jian-ben-di-bo-ke/">https://www.alin.com/2023/02/03/hexo-da-jian-ben-di-bo-ke/</a>
+                    <a href="https://www.alin.com/2023/02/08/hexo-de-ying-yong/">https://www.alin.com/2023/02/08/hexo-de-ying-yong/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -614,11 +574,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -790,7 +746,7 @@
         repo: '',
         owner: '',
         admin: null,
-        id: '2023-02-03T11-15-51',
+        id: '2023-02-08T13-43-07',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -816,9 +772,48 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2023/02/08/hexo-de-ying-yong/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/darkchirps/darkchirps.github.io/medias/featureimages/4.jpg" class="responsive-img" alt="hexo的应用">
+                        
+                        <span class="card-title">hexo的应用</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-08
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            alin
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2023/02/03/yong-github-fang-wen-hexo-bo-ke/">
                     <div class="card-image">
@@ -836,45 +831,8 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-02-03
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            alin
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2023/02/01/di-yi-pian-bo-ke/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="https://cdn.jsdelivr.net/gh/darkchirps/darkchirps.github.io/medias/featureimages/13.jpg" class="responsive-img" alt="第一篇博客">
-                        
-                        <span class="card-title">第一篇博客</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-03
                             </span>
                         <span class="publish-author">
                             
