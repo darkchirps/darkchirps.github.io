@@ -1,9 +1,9 @@
 ---
 title: hexo的应用
 date: 2023-02-08 13:43:07
-tags: hexok
 categories: hexo 
 summary: 只有做傻事的人才是傻子
+tags: hexo
 ---
 
 ## 1.切换主题

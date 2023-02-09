@@ -1,9 +1,11 @@
 ---
 title: 用github访问hexo博客
 date: 2023-02-03 16:39:33
-tags: github,hexo
 summary: 昨日种种，皆成今我
 categories: hexo 
+tags: 
+- hexo
+- github
 ---
 
 ## 1.绑定用户

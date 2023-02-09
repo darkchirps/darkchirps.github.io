@@ -1,14 +1,12 @@
 ---
 title: hexo搭建本地博客
 date: 2023-02-03 11:15:51
-author: alin
-img: https://i.postimg.cc/YqY7MdNb/hexo1.jpg
-top: true
-cover: true
 summary: 一个不欣赏自己的人，是难以快乐的
 categories: hexo 
-tags: hexo,git,node,博客
-keywords: node,hexo,git
+tags: 
+- hexo
+- git
+- 博客
 ---
 
 ## 1.准备阶段
