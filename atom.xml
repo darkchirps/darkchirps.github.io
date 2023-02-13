@@ -3,11 +3,11 @@
   <title>darkchirps</title>
   
   <subtitle>暗啾的发现</subtitle>
-  <link href="https://www.alin.com/atom.xml" rel="self"/>
+  <link href="https://username.github.io/atom.xml" rel="self"/>
   
-  <link href="https://www.alin.com/"/>
+  <link href="https://username.github.io/"/>
   <updated>2023-02-13T06:27:03.825Z</updated>
-  <id>https://www.alin.com/</id>
+  <id>https://username.github.io/</id>
   
   <author>
     <name>darkchirps</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>github-hexo搭建博客</title>
-    <link href="https://www.alin.com/2023/02/11/github-hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://www.alin.com/2023/02/11/github-hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://username.github.io/2023/02/11/github-hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://username.github.io/2023/02/11/github-hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2023-02-11T02:35:49.000Z</published>
     <updated>2023-02-13T06:27:03.825Z</updated>
     
@@ -33,23 +33,23 @@
     
     
     
-    <category term="博客" scheme="https://www.alin.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://username.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="github" scheme="https://www.alin.com/tags/github/"/>
+    <category term="github" scheme="https://username.github.io/tags/github/"/>
     
-    <category term="hexo" scheme="https://www.alin.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://username.github.io/tags/hexo/"/>
     
-    <category term="node" scheme="https://www.alin.com/tags/node/"/>
+    <category term="node" scheme="https://username.github.io/tags/node/"/>
     
-    <category term="git" scheme="https://www.alin.com/tags/git/"/>
+    <category term="git" scheme="https://username.github.io/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>fb项目</title>
-    <link href="https://www.alin.com/2023/02/09/fb%E9%A1%B9%E7%9B%AE/"/>
-    <id>https://www.alin.com/2023/02/09/fb%E9%A1%B9%E7%9B%AE/</id>
+    <link href="https://username.github.io/2023/02/09/fb%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://username.github.io/2023/02/09/fb%E9%A1%B9%E7%9B%AE/</id>
     <published>2023-02-09T09:04:41.000Z</published>
     <updated>2023-02-13T06:21:02.568Z</updated>
     
@@ -64,21 +64,21 @@
     
     
     
-    <category term="fb" scheme="https://www.alin.com/categories/fb/"/>
+    <category term="fb" scheme="https://username.github.io/categories/fb/"/>
     
     
-    <category term="cocos" scheme="https://www.alin.com/tags/cocos/"/>
+    <category term="cocos" scheme="https://username.github.io/tags/cocos/"/>
     
-    <category term="fb" scheme="https://www.alin.com/tags/fb/"/>
+    <category term="fb" scheme="https://username.github.io/tags/fb/"/>
     
-    <category term="消除" scheme="https://www.alin.com/tags/%E6%B6%88%E9%99%A4/"/>
+    <category term="消除" scheme="https://username.github.io/tags/%E6%B6%88%E9%99%A4/"/>
     
   </entry>
   
   <entry>
     <title>cocos2d项目</title>
-    <link href="https://www.alin.com/2023/02/09/cocos2d%E9%A1%B9%E7%9B%AE/"/>
-    <id>https://www.alin.com/2023/02/09/cocos2d%E9%A1%B9%E7%9B%AE/</id>
+    <link href="https://username.github.io/2023/02/09/cocos2d%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://username.github.io/2023/02/09/cocos2d%E9%A1%B9%E7%9B%AE/</id>
     <published>2023-02-09T08:18:14.000Z</published>
     <updated>2023-02-13T06:20:57.658Z</updated>
     
@@ -93,23 +93,23 @@
     
     
     
-    <category term="cocos" scheme="https://www.alin.com/categories/cocos/"/>
+    <category term="cocos" scheme="https://username.github.io/categories/cocos/"/>
     
     
-    <category term="cocos" scheme="https://www.alin.com/tags/cocos/"/>
+    <category term="cocos" scheme="https://username.github.io/tags/cocos/"/>
     
-    <category term="ts" scheme="https://www.alin.com/tags/ts/"/>
+    <category term="ts" scheme="https://username.github.io/tags/ts/"/>
     
-    <category term="泡泡龙" scheme="https://www.alin.com/tags/%E6%B3%A1%E6%B3%A1%E9%BE%99/"/>
+    <category term="泡泡龙" scheme="https://username.github.io/tags/%E6%B3%A1%E6%B3%A1%E9%BE%99/"/>
     
-    <category term="vsCode" scheme="https://www.alin.com/tags/vsCode/"/>
+    <category term="vsCode" scheme="https://username.github.io/tags/vsCode/"/>
     
   </entry>
   
   <entry>
     <title>hexo的应用</title>
-    <link href="https://www.alin.com/2023/02/08/hexo%E7%9A%84%E5%BA%94%E7%94%A8/"/>
-    <id>https://www.alin.com/2023/02/08/hexo%E7%9A%84%E5%BA%94%E7%94%A8/</id>
+    <link href="https://username.github.io/2023/02/08/hexo%E7%9A%84%E5%BA%94%E7%94%A8/"/>
+    <id>https://username.github.io/2023/02/08/hexo%E7%9A%84%E5%BA%94%E7%94%A8/</id>
     <published>2023-02-08T05:43:07.000Z</published>
     <updated>2023-02-13T06:27:28.301Z</updated>
     
@@ -124,10 +124,10 @@
     
     
     
-    <category term="hexo" scheme="https://www.alin.com/categories/hexo/"/>
+    <category term="hexo" scheme="https://username.github.io/categories/hexo/"/>
     
     
-    <category term="hexo" scheme="https://www.alin.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://username.github.io/tags/hexo/"/>
     
   </entry>
   
