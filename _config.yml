@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: alin
-subtitle: 阿林的发现
+title: darkchirps
+subtitle: '暗啾的发现'
 description: ''
 keywords:
-author: alin
+author: darkchirps
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.alin.com
+url: https://darkchirps.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -28,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: pao\**
+skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -128,24 +128,5 @@ jsonContent:
       categories: true
       tags: true
 
-permalink_pinyin:
-  enable: true
-  separator: '-' # default: '-'
 
-githubEmojis:
-  enable: true
-  className: github-emoji
-  inject: true
-  styles:
-  customEmojis:
-
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
-  order_by: -date
  

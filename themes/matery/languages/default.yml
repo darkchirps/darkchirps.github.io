@@ -3,11 +3,12 @@ category: Category
 categories: Categories
 tag: Tag
 tags: Tags
-project: project
 archives: Archives
 about: About
 contact: Contact
 friends: Friends
+others: Others
+music: Music
 startRead: Start
 recommendedPosts: Recommended Posts
 publishDate: Publish Date
@@ -45,7 +46,6 @@ from: From
 reprint: Reprint policy
 author: Author
 link: Link
-alin's journey of discovery: alin's journey of discovery
 use: All articles in this blog are used except for special statements
 licensed: reprint polocy. If reproduced, please indicate source
 cc_by_url: https://creativecommons.org/licenses/by/4.0/deed.zh

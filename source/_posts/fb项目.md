@@ -1,15 +1,23 @@
 ---
 title: fb项目
 date: 2023-02-09 17:04:41
-categories: fb
 summary: 草木蔓发抬头所见，皆是柔情
-top: true
-cover: true
-keywords: fb,砖块,方块,水果，FB消消乐
+mathjax: true
+top: false
+cover: false
+categories: fb
 tags: 
 - fb
 - 消除
+- cocos
 ---
+
+fb sdk示例包
+
+链接：https://pan.baidu.com/s/1Rwy825Sf0QKG3jxJrXjwug?pwd=7k2l 
+提取码：7k2l
+
+**示例包里有一个截图方法，屏幕内外都可截图**
 
 1.bubble vs blocks
 
