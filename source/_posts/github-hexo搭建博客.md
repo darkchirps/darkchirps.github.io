@@ -176,6 +176,8 @@ git输入指令：
 
 `hexo d`  部署文章到github
 
+`hexo s`  本地运行
+
 注意：hexo d部署到github仓库，如果出现问题，删掉博客根目录下的.deploy_git文件夹，再重复那三个指令即可
 
 ## 5.通过github访问博客

@@ -4,48 +4,49 @@ menu:
   Index:
     url: /
     icon: fas fa-home
-  Categories:
-    url: /categories
-    icon: fas fa-bookmark
+  # Categories:
+  #   url: /categories
+  #   icon: fas fa-bookmark
   Archives:
     url: /archives
     icon: fas fa-archive
   About:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
+  # Contact:
+  #   url: /contact
+  #   icon: fas fa-comments
+  Tags:
+    url: /tags
+    icon: fas fa-tags
   Friends:
     url: /friends
     icon: fas fa-address-book
   # 二级菜单写法如下
-  Others:
-    icon: fas fa-list
-    children:
-      - name: Tag
-        url: /tags
-        icon: fas fa-tags
-      - name: Music
-        url: /music
-        icon: fas fa-music
-      - name: Movies
-        url: /movies
-        icon: fas fa-film
-      - name: Books
-        url: /books
-        icon: fas fa-book
-      - name: Galleries
-        url: /galleries
-        icon: fas fa-image
+  # Others:
+  #   icon: fas fa-list
+  #   children:
+  #     - name: Tag
+  #       url: /tags
+  #       icon: fas fa-tags
+  #     - name: Music
+  #       url: /music
+  #       icon: fas fa-music
+  #     - name: Movies
+  #       url: /movies
+  #       icon: fas fa-film
+  #     - name: Books
+  #       url: /books
+  #       icon: fas fa-book
+
 
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  enable: true
+  year: 2023 # 年份
+  month: 02 # 月份
+  date: 01 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -156,7 +157,7 @@ code:
   lang: true # 代码块是否显示名称
   copy: true # 代码块是否可复制
   shrink: true # 代码块是否可以收缩
-  break: true# 代码是否折行
+  break: true # 代码是否折行
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
@@ -253,7 +254,7 @@ myGallery:
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -274,7 +275,7 @@ postCalendar: true
 # the Gitalk config，default disabled
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
-  enable: true
+  enable: false
   owner:
   repo:
   oauth:
@@ -285,7 +286,7 @@ gitalk:
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
 gitment:
-  enable: true
+  enable: false
   owner:
   repo:
   oauth:
@@ -499,7 +500,7 @@ featureImages:
 # noreprint（不允许转载 not allowed to reprint）
 # pay（付费转载 pay for reprinting）
 reprint:
-  enable: true # whether enable reprint section 是否启用“转载规则限定模块”
+  enable: false # whether enable reprint section 是否启用“转载规则限定模块”
   default: cc_by
 
 # DaoVoice online contact
@@ -527,7 +528,7 @@ canvas_nest:
 
 # 背景静止彩带.
 ribbon:
-  enable: true
+  enable: false
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
@@ -599,7 +600,7 @@ background:
 
 # 说说 https://artitalk.js.org/
 artitalk:
-  enable: true
+  enable: false
   appId: # xxxxx
   appKey: # xxxxxx
 
